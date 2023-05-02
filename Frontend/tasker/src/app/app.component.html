@@ -1,4 +1,8 @@
 <app-menu-lateral (onToggleSideNav)="onToggleSideNav($event)"></app-menu-lateral>
+<app-menu-superior
+    [collapsed]="isSideNavCollapsed"
+    [screenWidth]="screenWidth"
+></app-menu-superior>
 <app-pagina
     [collapsed]="isSideNavCollapsed"
     [screenWidth]="screenWidth"
